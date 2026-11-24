@@ -3,16 +3,19 @@
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 
+#install.packages("DT")
 
 library(shiny)
 library(ggplot2)
 library(dplyr)
+library(DT)
+
 
 acc_data <- read.csv("accident.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  titlePanel("United States 2024 Crash Statistics"),
+  titlePanel("United States 2024 Crash Statistics Dashboard"),
 
   sidebarLayout(
     sidebarPanel(
