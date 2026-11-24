@@ -19,12 +19,11 @@ The repository contains: \* .gitignore: text file for git to know what
 files to ignore. We don’t touch this. \* app.R: Contains all R Shiny
 code that allows the app to run. Edit this file to change the dashboard
 function or UI. \* Assignment3Deliverables.Rproj: project file in
-Rstudio \* README.Rmd : Contains the descriptions of all files in the
-assignmentB3-Grace-Gould repository, as well as GenAI statement \*
-README.md: static readable text file containing the information from
-README.Rmd \* reflection.Rmd : Contains genAI reflection for this
-assignment \* reflection.md: static readable text file containing the
-information from relflection.Rmd
+Rstudio \* README_Reflection.Rmd : Contains the descriptions of all
+files in the assignmentB3-Grace-Gould repository, as well as GenAI
+statement and reflection \* README_Reflection.md: static readable text
+file containing the information from README_Reflection.Rmd \*
+accident.csv: csv file containing the 2024 US NHTSA accident data
 
 ## Engagement Instructions
 
@@ -77,7 +76,7 @@ R Shiny was also used to help with some errors around the reactive
 coding of the plots and tables. Most of the errors had stemmed from
 column renaming issues. However, the Shiny Assistant does not save
 previous work if you close the browser so I lost all prompts and
-responses. This will be discussed with Professor Thompson.
+responses. This was discussed with Professor Thompson.
 
 I affirm that Generative AI was not used to generate text, code, or
 comments for my assessments.
